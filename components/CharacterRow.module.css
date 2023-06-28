@@ -1,0 +1,43 @@
+.rowContainer {
+  display: flex;
+  padding: 24px 36px;
+  margin: 14px 0px;
+  justify-content: space-between;
+  border: 1px gray solid;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.rowContainer:hover,
+.rowContainer.hoverEffect {
+  transform: translateY(-4px);
+}
+
+.pic{
+  width: 124px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 8px 18px;
+  gap: 5px;
+  width: 100%;
+}
+
+.originContainer{
+  display: flex;
+  align-items: center;
+}
+
+.originLabel{
+  margin-left: 4px;
+}
+
+.episodesCount{
+  font-style: italic;
+}

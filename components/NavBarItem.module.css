@@ -1,0 +1,19 @@
+.navbarItemContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.navbarItemLabel{
+  color: #000000e3;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .navbarItemLabel {
+    display: none;
+  }
+}

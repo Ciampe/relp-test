@@ -1,0 +1,20 @@
+.mainContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f2ef;
+  padding: 14px 70px;
+}
+
+.childrenContainer{
+  flex-grow: 3;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+    padding: 14px 0px;
+  }
+}
