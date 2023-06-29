@@ -3,10 +3,18 @@
   padding: 24px 36px;
   margin: 14px 0px;
   justify-content: space-between;
-  border: 1px gray solid;
-  border-radius: 16px;
+  border: 1px solid #00000014;
+  border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s ease;
+  background-color: #FFFAFA;
+  width: 43vw;
+}
+
+@media (max-width: 768px) {
+  .rowContainer{
+    width: 95vw;
+  }
 }
 
 .rowContainer:hover,
@@ -36,8 +44,11 @@
 
 .originLabel{
   margin-left: 4px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .episodesCount{
   font-style: italic;
+  font-size: 14px;
 }

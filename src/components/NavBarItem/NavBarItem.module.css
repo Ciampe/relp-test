@@ -5,10 +5,20 @@
   align-items: center;
   text-align: center;
   gap: 5px;
+  color: #00000099;
+  cursor: pointer;
+}
+
+.navbarSelectedItemContainer{
+  color: #000000e3 !important;
+}
+
+.navbarItemContainer:hover,
+.navbarItemContainer.hoverEffect {
+  color: #000000e3;
 }
 
 .navbarItemLabel{
-  color: #000000e3;
   font-size: 14px;
 }
 
