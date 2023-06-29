@@ -1,10 +1,9 @@
 import React from 'react';
-import axios from 'axios';
-import CharacterList from '../../components/CharacterList';
+import CharacterList from '@components/CharacterList/CharacterList';
 import axiosInstance from '../services/api'
+import Character from '../types/character';
 
-const CharacterListPage = ({ characters }) => {
-  console.log(characters)
+const CharacterListPage = ({ characters }: { characters: Character[] }) => {
   return (
     <div>
       <CharacterList characters={characters} />

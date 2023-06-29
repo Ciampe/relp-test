@@ -1,0 +1,36 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list{
+  list-style-type: none;
+  height: 87vh;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #999999 #F5F5F5;
+}
+
+@media (max-width: 767px) {
+  .list{
+    padding-right: 10px;
+  }
+  .list::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .list::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    margin-top: 12px;
+  }
+
+  .list::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 4px;
+  }
+
+  .list::-webkit-scrollbar-thumb:hover {
+    background-color: #777777;
+  }
+}

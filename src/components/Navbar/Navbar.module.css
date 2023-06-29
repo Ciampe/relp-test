@@ -1,15 +1,16 @@
-.navbarContainer{
+.navbarContainer {
   display: flex;
   justify-content: space-between;
   padding: 0px 80px;
   position: relative;
-  border-bottom: 0.5px lightgray solid;
+  border-bottom: 1px solid #00000014;
+  background-color: #FFFAFA;
 }
 
-.navbarElementsContainer{
+.navbarElementsContainer {
   display: flex;
   flex-grow: 3;
-  justify-content: right;
+  justify-content: flex-end;
   gap: 42px;
   margin: 6px 18px;
 }
@@ -52,5 +53,8 @@
   }
   .searchInput {
     display: none;
+  }
+  .navbarContainer {
+    padding: 0px 20px;
   }
 }

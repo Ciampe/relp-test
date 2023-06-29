@@ -1,0 +1,29 @@
+.creatorContainer {
+  display: flex;
+  padding: 18px 36px;
+  margin: 14px 0px;
+  justify-content: flex-start;
+  border: 1px solid #00000014;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: #FFFAFA;
+}
+
+.profilePic{
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.inputText{
+  width: 90%;
+  color: #00000099;
+  border-radius: 35px;
+  border: 1px solid #0000004d;
+  cursor: pointer;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -4,12 +4,7 @@
   justify-content: space-between;
   background-color: #f3f2ef;
   padding: 14px 70px;
-}
-
-.childrenContainer{
-  flex-grow: 3;
-  text-align: center;
-  margin: 0px 10px;
+  overflow: scroll;
 }
 
 @media (max-width: 768px) {

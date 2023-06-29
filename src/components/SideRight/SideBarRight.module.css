@@ -1,0 +1,31 @@
+.sideBarRightContainer{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 440px;
+  border-radius: 8px;
+  background-color: #FFFAFA;
+  border: 1px solid #00000014;
+  margin: 15px 0px;
+  padding: 18px 14px;
+}
+
+.title{
+  color: #000000e6;
+}
+
+.friendsListContainer{
+  padding-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .sideBarRightContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideBarRightContainer {
+    display: none;
+  }
+}

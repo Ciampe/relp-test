@@ -1,5 +1,5 @@
 import React from 'react'
-import { pluralize } from '../src/utils/pluralize'
+import { pluralize } from '../../../src/utils/pluralize'
 import { TbWorld } from 'react-icons/tb'
 import styles from './CharacterRow.module.css'
 
@@ -11,7 +11,7 @@ const CharacterRow = ({ imgPath, name, origin, episodesCount }) => {
         <div className={styles.infoContainer}>
             <h2>{name}</h2>
             <div className={styles.originContainer}>
-              <TbWorld />
+              <TbWorld size={16}/>
               <h3 className={styles.originLabel}> {origin}</h3>
             </div>
             <p className={styles.episodesCount}>{episodesCount} {label}</p>
